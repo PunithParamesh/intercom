@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Intercom AI Admin Panel Replica
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive, animated, and modular **Intercom-style AI customer support admin panel** built using React.js and CSS Modules — replicating the UI and user experience of Intercom’s admin dashboard. Built as part of an advanced frontend assignment.
 
-## Available Scripts
+##  Features
 
-In the project directory, you can run:
+-  Fully **replicated Intercom UI** with matching color schemes
+-  **Chat System UI** Inbox with:
+  - Chat List Sidebar
+  - Conversation View with smooth transitions 
+  - Details Panel with user info
+-  **Mobile-friendly** layout with toggleable sidebar
+-  **Mock AI Responses** simulating assistant replies
+-  **Slide & fade animations** for messages and components
+-  Clean code with modular structure and best practices
 
-### `npm start`
+##  Deployed Link
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+https://intercom-pi-nine.vercel.app/inbox
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+visit inbox section on sidebar
 
-### `npm test`
+##  Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Tech            | Usage                           |
+|-----------------|----------------------------------|
+| `React.js`      | Frontend library                 |
+| `module.css`    | Scoped component-level styling   |
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+- Node.js ≥ 14
+- npm or yarn
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Steps
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+# 1. Clone the repository
+git clone https://github.com/PunithParamesh/intercom.git
+cd intercom
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# 2. Install dependencies
+npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# 3. Start the development server
+npm run dev
