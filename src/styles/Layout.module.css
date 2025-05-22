@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: #f5f7fa;
+  overflow: hidden;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.content {
+  padding: 20px;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+/* Responsive: Stack layout on small screens */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
